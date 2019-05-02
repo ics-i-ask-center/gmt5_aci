@@ -30,6 +30,7 @@ From: shub://willgpaik/centos7_aci:latest
   
   cd gmt
   mkdir build
+  cd build
   cmake .. -DGSHHG_ROOT=../../gshhg-gmt-2.3.7 \
     -DDCW_ROOT=../../dcw-gmt-1.1.4
     
