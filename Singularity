@@ -10,7 +10,7 @@ From: shub://willgpaik/centos7_aci:latest
 %runscript
 
 %post
-  yum -y yum install cmake \
+  yum -y install cmake \
     subversion \
     libcurl-devel \
     netcdf-devel \
